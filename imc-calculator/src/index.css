@@ -1,0 +1,97 @@
+.imc-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.imc-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.botoes button {
+  flex-grow: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+.resultado-imc {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #e8f5e9;
+  border: 1px solid #c8e6c9;
+  border-radius: 4px;
+}
+
+.resultado-imc p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.tabela-referencia {
+  margin-top: 30px;
+}
+
+.tabela-referencia table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-referencia th, .tabela-referencia td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.tabela-referencia th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.destaque {
+  background-color: #fff3e0; 
+  font-weight: bold;
+}
