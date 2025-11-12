@@ -1,4 +1,4 @@
-import IMC_Calculator from './IMC_Calculator.jsx';
+import IMC_Calculator from './components/IMC_Calculator.jsx';
 import './App.css'; 
 
 function App() {
